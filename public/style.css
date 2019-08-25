@@ -1,0 +1,66 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+}
+
+h1 {
+  font-style: italic;
+  text-decoration: underline;
+  text-shadow: 3px 2px black;
+  color: #1D9A36;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+table{
+  border: 1px solid black;
+  border-spacing: 10px;
+  border-collapse: collapse;
+  
+}
+
+tr:nth-child(even){
+  background-color: #D3FDA9;
+}
+tr:nth-child(odd){
+  background-color: #A9DFD2;
+}
+th{
+  background-color: green;
+  color: white;
+  border: 2px solid black;
+}
+
+th, td{
+  padding: 10px;
+}
+
+td{
+    border: 1px solid black
+}
+
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+  
+}
+
+iframe{
+  height: 500px;
+  width: 900px;
+}

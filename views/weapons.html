@@ -1,0 +1,63 @@
+<!-- This is a static file -->
+<!-- served from your routes in server.js -->
+
+<!-- You might want to try something fancier: -->
+<!-- html/nunjucks docs: https://mozilla.github.io/nunjucks/ -->
+<!-- pug: https://pugjs.org/ -->
+<!-- haml: http://haml.info/ -->
+<!-- hbs(handlebars): http://handlebarsjs.com/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>ESO Weapons Requests</title>
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's client-side javascript file -->
+    <script src="/weapon_client.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        Weapon Requests
+      </h1>
+    </header>
+
+    <main>
+      
+      <section class="weapon_requests">
+        <table id = "weapon_requests">
+        <tr>
+        <th>Request ID</th>
+          <th>Set</th>
+          <th>Type</th>
+          <th>Level</th>
+          <th>Trait</th>
+          <th>Quality</th>
+          <th>Style</th>
+          <th>Mat Availability</th>
+          <th>In Game Username</th>
+        </tr>
+        </table>
+      </section>
+    </main>
+
+    <footer>
+       <a href="/armor">Armor</a>
+      <a href="/research">Research</a>
+      <a href="/log">History</a>
+    </footer>
+
+    <!-- include the Glitch button to show what the webpage is about and
+          to make it easier for folks to view source and remix -->
+    <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+
+  </body>
+</html>

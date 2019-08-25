@@ -1,0 +1,17 @@
+{
+  "name": "ESO_Craft_Request_Bot",
+  "version": "1.0.2",
+  "description": "Bot for Elder Scrolls Online Discords that have a dedicated channel for crafting requests.",
+  "main": "node bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Chelsea Lappe",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "sqlite3": "^4.1.0",
+    "better-sqlite3": "^5.4.2",
+    "express": "^4.16.4",
+    "body-parser": "^1.19.0"
+  }
+}
